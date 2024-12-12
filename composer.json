@@ -1,0 +1,21 @@
+{
+    "name": "piramit/container",
+    "version": "1.0.0",
+    "description": "Pyramid dependency injection container",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nihat Doğan"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pyramid\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.2"
+    }
+}
